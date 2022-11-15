@@ -1,8 +1,13 @@
 import Nav from './components/Nav/Nav'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
     return (
-        <Nav/>
+        
+        <div>
+            <Nav />
+            <Footer />
+        </div>
     )
 }
 
