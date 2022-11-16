@@ -5,7 +5,7 @@ export const menu = [
     },
     {
         title: "Link Two",
-        link: "/"
+        link: "/index.html"
     },
     {
         title: "Link Three",

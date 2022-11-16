@@ -7,7 +7,7 @@ const Nav = () => {
         <nav className={style.nav}>
             <ul className={style['menu-nav']}>
                 {menu.map((item, indx) => (
-                <li key={`menu item ${indx}`}>
+                <li key={`menu.item ${indx}`}>
                     <a href={item.link}>{item.title}</a>
                 </li>
                 ))}
